@@ -6,7 +6,7 @@ module fsm(
     output reg [3:0] current_state
 );
 
-localparam [2:0] //We need 9 states
+localparam [3:0] //We need 9 states
     s0 = 4'b0000,
     s1 = 4'b0001,
     s2 = 4'b0010,

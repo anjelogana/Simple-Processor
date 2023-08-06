@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_comp.srs changed - recompiling
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Selected library: work cell: simpleprocessor_top view verilog as top level
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Selected library: work cell: simpleprocessor_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Aug 06 18:36:05 2023
+
+###########################################################]

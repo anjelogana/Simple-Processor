@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    PC
+Date:        Sun Aug 06 18:29:03 2023
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch SimpleProcessor_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\SimpleProcessor.srr"
+Running: SimpleProcessor_Implmnt in foreground
+
+Running SimpleProcessor_syn|SimpleProcessor_Implmnt
+
+Running: compile (Compile) on SimpleProcessor_syn|SimpleProcessor_Implmnt
+# Sun Aug 06 18:29:03 2023
+
+Running: compile_flow (Compile Process) on SimpleProcessor_syn|SimpleProcessor_Implmnt
+# Sun Aug 06 18:29:03 2023
+
+Running: compiler (Compile Input) on SimpleProcessor_syn|SimpleProcessor_Implmnt
+# Sun Aug 06 18:29:03 2023
+Copied C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_comp.srs to C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\SimpleProcessor.srs
+
+compiler completed
+# Sun Aug 06 18:29:04 2023
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on SimpleProcessor_syn|SimpleProcessor_Implmnt
+# Sun Aug 06 18:29:04 2023
+
+multi_srs_gen completed
+# Sun Aug 06 18:29:04 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_mult.srs to C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\SimpleProcessor.srs
+Complete: Compile Process on SimpleProcessor_syn|SimpleProcessor_Implmnt
+
+Running: premap (Pre-mapping) on SimpleProcessor_syn|SimpleProcessor_Implmnt
+# Sun Aug 06 18:29:04 2023
+
+premap completed
+# Sun Aug 06 18:29:05 2023
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on SimpleProcessor_syn|SimpleProcessor_Implmnt
+
+Running: map (Map) on SimpleProcessor_syn|SimpleProcessor_Implmnt
+# Sun Aug 06 18:29:05 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on SimpleProcessor_syn|SimpleProcessor_Implmnt
+# Sun Aug 06 18:29:05 2023
+Copied C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_m.srm to C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\SimpleProcessor.srm
+
+fpga_mapper completed with warnings
+# Sun Aug 06 18:29:05 2023
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Map on SimpleProcessor_syn|SimpleProcessor_Implmnt
+Complete: Logic Synthesis on SimpleProcessor_syn|SimpleProcessor_Implmnt
+
+exit status=0
+
+exit status=0
+

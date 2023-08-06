@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\register.v":2:7:2:14|Synthesizing module register in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\DebounceSwitch.v":1:7:1:20|Synthesizing module DebounceSwitch in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v":1:7:1:9|Synthesizing module fsm in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\decoder.v":2:7:2:13|Synthesizing module decoder in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\alu.v":2:7:2:9|Synthesizing module alu in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\BinaryTo7Seg.v":1:7:1:18|Synthesizing module BinaryTo7Seg in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Synthesizing module simpleprocessor_top in library work.
+@N: CL201 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v":21:4:21:9|Trying to extract state machine for register track.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Selected library: work cell: simpleprocessor_top view verilog as top level
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Selected library: work cell: simpleprocessor_top view verilog as top level
+

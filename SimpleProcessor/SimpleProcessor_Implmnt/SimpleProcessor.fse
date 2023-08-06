@@ -1,0 +1,22 @@
+
+fsm_encoding {10214211} original
+
+fsm_state_encoding {10214211} s0 {0000}
+
+fsm_state_encoding {10214211} s1 {0001}
+
+fsm_state_encoding {10214211} s2 {0010}
+
+fsm_state_encoding {10214211} s3 {0011}
+
+fsm_state_encoding {10214211} s4 {0100}
+
+fsm_state_encoding {10214211} s5 {0101}
+
+fsm_state_encoding {10214211} s6 {0110}
+
+fsm_state_encoding {10214211} s7 {0111}
+
+fsm_state_encoding {10214211} s8 {1000}
+
+fsm_registers {10214211} {track[3]}  {track[2]}  {track[1]}  {track[0]} 

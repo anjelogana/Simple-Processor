@@ -1,0 +1,31 @@
+Selecting top level module simpleprocessor_top
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\register.v":2:7:2:14|Synthesizing module register in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\DebounceSwitch.v":1:7:1:20|Synthesizing module DebounceSwitch in library work.
+
+@A: CG412 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\DebounceSwitch.v":13:12:13:33|Treating === and !== as == and != -- possible simulation mismatch
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v":1:7:1:9|Synthesizing module fsm in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\decoder.v":2:7:2:13|Synthesizing module decoder in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\alu.v":2:7:2:9|Synthesizing module alu in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\BinaryTo7Seg.v":1:7:1:18|Synthesizing module BinaryTo7Seg in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Synthesizing module simpleprocessor_top in library work.
+
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_3. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_4. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v":21:4:21:9|Trying to extract state machine for register track.
+Extracted state machine for register track
+State machine has 9 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000

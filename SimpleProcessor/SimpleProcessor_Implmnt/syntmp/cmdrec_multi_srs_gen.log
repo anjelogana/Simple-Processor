@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  "C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_comp.srs"  -osyn  "C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_mult.srs"  -log  "C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synlog\SimpleProcessor_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_comp.srs|io:i|time:1691361363|size:12401|exec:0
+file:C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_mult.srs|io:o|time:1691361365|size:6230|exec:0
+file:C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synlog\SimpleProcessor_multi_srs_gen.srr|io:o|time:1691361365|size:1051|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1684875053|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1684875054|size:3947520|exec:1

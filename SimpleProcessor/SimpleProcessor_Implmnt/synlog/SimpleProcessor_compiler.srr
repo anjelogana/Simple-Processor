@@ -1,0 +1,85 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\alu.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\BinaryTo7Seg.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\DebounceSwitch.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\decoder.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\register.v" (library work)
+Verilog syntax check successful!
+File C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v changed - recompiling
+Selecting top level module simpleprocessor_top
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\register.v":2:7:2:14|Synthesizing module register in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\DebounceSwitch.v":1:7:1:20|Synthesizing module DebounceSwitch in library work.
+
+@A: CG412 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\DebounceSwitch.v":13:12:13:33|Treating === and !== as == and != -- possible simulation mismatch
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v":1:7:1:9|Synthesizing module fsm in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\decoder.v":2:7:2:13|Synthesizing module decoder in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\alu.v":2:7:2:9|Synthesizing module alu in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\BinaryTo7Seg.v":1:7:1:18|Synthesizing module BinaryTo7Seg in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Synthesizing module simpleprocessor_top in library work.
+
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_3. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_4. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v":21:4:21:9|Trying to extract state machine for register track.
+Extracted state machine for register track
+State machine has 9 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 77MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Aug 06 18:36:03 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Selected library: work cell: simpleprocessor_top view verilog as top level
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":2:7:2:25|Selected library: work cell: simpleprocessor_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Aug 06 18:36:03 2023
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Aug 06 18:36:03 2023
+
+###########################################################]

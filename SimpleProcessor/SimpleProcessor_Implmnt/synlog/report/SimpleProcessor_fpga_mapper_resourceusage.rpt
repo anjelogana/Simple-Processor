@@ -1,0 +1,28 @@
+---------------------------------------
+Resource Usage Report for simpleprocessor_top 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             8 uses
+SB_CARRY        70 uses
+SB_DFF          30 uses
+SB_DFFE         19 uses
+SB_DFFSR        72 uses
+SB_GB           4 uses
+VCC             8 uses
+SB_LUT4         200 uses
+
+I/O ports: 23
+I/O primitives: 23
+SB_GB_IO       1 use
+SB_IO          22 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   121 (9%)
+
+@S |Mapping Summary:
+Total  LUTs: 200 (15%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 200 = 200 
+

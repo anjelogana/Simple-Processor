@@ -1,0 +1,45 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\SimpleProcessor\\SimpleProcessor_Implmnt\\synwork\\SimpleProcessor_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\SimpleProcessor\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1684875053
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1684875054
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1684875055
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1684875055
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1684875055
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1684875055
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\Verilog\\simpleprocessor_top.v":1691361360
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\Verilog\\alu.v":1691300883
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\Verilog\\BinaryTo7Seg.v":1691347278
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\Verilog\\DebounceSwitch.v":1686177473
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\Verilog\\decoder.v":1691297629
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\Verilog\\fsm.v":1691357911
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\sbt_backend\\Projects\\Learning Verilog\\SimpleProcessor\\SimpleProcessor\\Verilog\\register.v":1691294835
+0			"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v" verilog
+1			"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\alu.v" verilog
+2			"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\BinaryTo7Seg.v" verilog
+3			"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\DebounceSwitch.v" verilog
+4			"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\decoder.v" verilog
+5			"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\fsm.v" verilog
+6			"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\register.v" verilog
+#Dependency Lists(Uses List)
+0 2 1 4 5 3 6
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+#Design Unit to File Association
+module work simpleprocessor_top 0
+module work BinaryTo7Seg 2
+module work alu 1
+module work decoder 4
+module work fsm 5
+module work DebounceSwitch 3
+module work register 6

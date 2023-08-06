@@ -1,0 +1,4 @@
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_3. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\Verilog\simpleprocessor_top.v":131:4:131:9|Sharing sequential element o_LED_4. Add a syn_preserve attribute to the element to prevent sharing.
+

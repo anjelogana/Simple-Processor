@@ -1,0 +1,372 @@
+# Sun Aug 06 18:36:05 2023
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            i_Clk
+
+@W: FA239 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":16:12:16:15|ROM r_HexEncode_2[6:0] (in view: work.BinaryTo7Seg_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":16:12:16:15|ROM r_HexEncode_2[6:0] (in view: work.BinaryTo7Seg_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":16:12:16:15|Found ROM .delname. (in view: work.BinaryTo7Seg_1(verilog)) with 16 words by 7 bits.
+@W: FA239 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":16:12:16:15|ROM r_HexEncode_2[6:0] (in view: work.BinaryTo7Seg_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":16:12:16:15|ROM r_HexEncode_2[6:0] (in view: work.BinaryTo7Seg_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":16:12:16:15|Found ROM .delname. (in view: work.BinaryTo7Seg_0(verilog)) with 16 words by 7 bits.
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance1.r_Count[17:0] is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance1.r_State is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance2.r_Count[17:0] is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance2.r_State is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance3.r_Count[17:0] is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance3.r_State is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance4.r_Count[17:0] is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\debounceswitch.v":11:5:11:10|User-specified initial value defined for instance Instance4.r_State is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":14:4:14:9|User-specified initial value defined for instance SegInst1.r_HexEncode[6:0] is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\binaryto7seg.v":14:4:14:9|User-specified initial value defined for instance SegInst2.r_HexEncode[6:0] is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\simpleprocessor_top.v":131:4:131:9|User-specified initial value defined for instance r_Count[3:0] is being ignored. 
+@W: FX1039 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\simpleprocessor_top.v":131:4:131:9|User-specified initial value defined for instance click1 is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg1.q[7] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\register.v":9:0:9:5|Sequential instance reg2.q[7] is reduced to a combinational gate by constant propagation.
+Encoding state machine track[8:0] (in view: work.fsm(verilog))
+original code -> new code
+   0000 -> 0000
+   0001 -> 0001
+   0010 -> 0010
+   0011 -> 0011
+   0100 -> 0100
+   0101 -> 0101
+   0110 -> 0110
+   0111 -> 0111
+   1000 -> 1000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    34.69ns		 204 /       121
+@N: FX1016 :"c:\lscc\icecube2.2020.12\sbt_backend\projects\learning verilog\simpleprocessor\simpleprocessor\verilog\simpleprocessor_top.v":3:10:3:14|SB_GB_IO inserted on the port i_Clk.
+@N: FX1017 :|SB_GB inserted on the net Instance4.r_Count12_i.
+@N: FX1017 :|SB_GB inserted on the net Instance3.r_Count12_i.
+@N: FX1017 :|SB_GB inserted on the net Instance2.r_Count12_i.
+@N: FX1017 :|SB_GB inserted on the net Instance1.r_Count12_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 121 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================ Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
+----------------------------------------------------------------------------------------
+@K:CKID0001       i_Clk_ibuf_gb_io     SB_GB_IO               121        sevsegr[0]     
+========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 139MB)
+
+Writing Analyst data base C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\synwork\SimpleProcessor_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\SimpleProcessor\SimpleProcessor\SimpleProcessor\SimpleProcessor_Implmnt\SimpleProcessor.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+@N: MT615 |Found clock i_Clk with period 40.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Aug 06 18:36:06 2023
+#
+
+
+Top view:               simpleprocessor_top
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\lscc\iCEcube2.2020.12\sbt_backend\Projects\Learning Verilog\Go_Board_Clock_Constraint.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 29.869
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+i_Clk              25.0 MHz      98.7 MHz      40.000        10.131        29.869     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+i_Clk     i_Clk   |  40.000      29.869  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: i_Clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                                Arrival           
+Instance                  Reference     Type         Pin     Net                  Time        Slack 
+                          Clock                                                                     
+----------------------------------------------------------------------------------------------------
+cu1.track_e_0[3]          i_Clk         SB_DFFE      Q       current_state[3]     0.540       29.869
+cu1.track[2]              i_Clk         SB_DFF       Q       current_state[2]     0.540       29.876
+cu1.track[1]              i_Clk         SB_DFF       Q       current_state[1]     0.540       29.904
+cu1.track[0]              i_Clk         SB_DFF       Q       current_state[0]     0.540       29.967
+r_Switch_1                i_Clk         SB_DFF       Q       r_Switch_1           0.540       30.523
+Instance1.r_State         i_Clk         SB_DFF       Q       w_Switch_1           0.540       30.572
+Instance3.r_Count[14]     i_Clk         SB_DFFSR     Q       r_Count[14]          0.540       32.160
+Instance4.r_Count[14]     i_Clk         SB_DFFSR     Q       r_Count[14]          0.540       32.160
+Instance2.r_Count[14]     i_Clk         SB_DFFSR     Q       r_Count[14]          0.540       32.160
+Instance1.r_Count[14]     i_Clk         SB_DFFSR     Q       r_Count[14]          0.540       32.160
+====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                           Required           
+Instance                 Reference     Type        Pin     Net              Time         Slack 
+                         Clock                                                                 
+-----------------------------------------------------------------------------------------------
+alogicunit.result[6]     i_Clk         SB_DFFE     D       N_24             39.895       29.869
+alogicunit.result[5]     i_Clk         SB_DFFE     D       N_22             39.895       30.009
+alogicunit.result[4]     i_Clk         SB_DFFE     D       N_18             39.895       30.149
+sevsegl[0]               i_Clk         SB_DFFE     D       sevsegl_7[0]     39.895       30.523
+sevsegr[0]               i_Clk         SB_DFFE     D       sevsegr_7[0]     39.895       30.523
+alogicunit.result[7]     i_Clk         SB_DFFE     D       N_26             39.895       31.394
+alogicunit.result[3]     i_Clk         SB_DFFE     D       N_20             39.895       31.955
+alogicunit.result[2]     i_Clk         SB_DFFE     D       N_16             39.895       32.095
+Instance2.r_State        i_Clk         SB_DFF      D       r_State          39.895       32.160
+Instance3.r_State        i_Clk         SB_DFF      D       r_State          39.895       32.160
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.895
+
+    - Propagation time:                      10.026
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     29.869
+
+    Number of logic level(s):                9
+    Starting point:                          cu1.track_e_0[3] / Q
+    Ending point:                            alogicunit.result[6] / D
+    The start point is clocked by            i_Clk [rising] on pin C
+    The end   point is clocked by            i_Clk [rising] on pin C
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+cu1.track_e_0[3]                   SB_DFFE      Q        Out     0.540     0.540       -         
+current_state[3]                   Net          -        -       1.599     -           15        
+alogicunit.result24_i              SB_LUT4      I0       In      -         2.139       -         
+alogicunit.result24_i              SB_LUT4      O        Out     0.449     2.588       -         
+result24_i                         Net          -        -       1.371     -           7         
+alogicunit.un1_a_1_cry_1_c_inv     SB_LUT4      I0       In      -         3.959       -         
+alogicunit.un1_a_1_cry_1_c_inv     SB_LUT4      O        Out     0.386     4.345       -         
+un1_a_1_cry_1_c_inv                Net          -        -       0.905     -           2         
+alogicunit.un1_a_1_cry_1_c         SB_CARRY     I0       In      -         5.250       -         
+alogicunit.un1_a_1_cry_1_c         SB_CARRY     CO       Out     0.258     5.507       -         
+un1_a_1_cry_1                      Net          -        -       0.014     -           2         
+alogicunit.un1_a_1_cry_2_c         SB_CARRY     CI       In      -         5.521       -         
+alogicunit.un1_a_1_cry_2_c         SB_CARRY     CO       Out     0.126     5.647       -         
+un1_a_1_cry_2                      Net          -        -       0.014     -           2         
+alogicunit.un1_a_1_cry_3_c         SB_CARRY     CI       In      -         5.661       -         
+alogicunit.un1_a_1_cry_3_c         SB_CARRY     CO       Out     0.126     5.787       -         
+un1_a_1_cry_3                      Net          -        -       0.014     -           2         
+alogicunit.un1_a_1_cry_4_c         SB_CARRY     CI       In      -         5.801       -         
+alogicunit.un1_a_1_cry_4_c         SB_CARRY     CO       Out     0.126     5.928       -         
+un1_a_1_cry_4                      Net          -        -       0.014     -           2         
+alogicunit.un1_a_1_cry_5_c         SB_CARRY     CI       In      -         5.942       -         
+alogicunit.un1_a_1_cry_5_c         SB_CARRY     CO       Out     0.126     6.068       -         
+un1_a_1_cry_5                      Net          -        -       0.386     -           2         
+alogicunit.result_RNO_0[6]         SB_LUT4      I3       In      -         6.454       -         
+alogicunit.result_RNO_0[6]         SB_LUT4      O        Out     0.316     6.769       -         
+result_RNO_0[6]                    Net          -        -       1.371     -           1         
+alogicunit.result_RNO[6]           SB_LUT4      I2       In      -         8.140       -         
+alogicunit.result_RNO[6]           SB_LUT4      O        Out     0.379     8.519       -         
+N_24                               Net          -        -       1.507     -           1         
+alogicunit.result[6]               SB_DFFE      D        In      -         10.026      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 10.131 is 2.936(29.0%) logic and 7.195(71.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+---------------------------------------
+Resource Usage Report for simpleprocessor_top 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             8 uses
+SB_CARRY        70 uses
+SB_DFF          30 uses
+SB_DFFE         19 uses
+SB_DFFSR        72 uses
+SB_GB           4 uses
+VCC             8 uses
+SB_LUT4         200 uses
+
+I/O ports: 23
+I/O primitives: 23
+SB_GB_IO       1 use
+SB_IO          22 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   121 (9%)
+Total load per clock:
+   i_Clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 200 (15%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 200 = 200 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 139MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Aug 06 18:36:06 2023
+
+###########################################################]
