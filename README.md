@@ -21,4 +21,8 @@ The following files are taken from nandland.com for the place and route of the F
 "Go_Board_Clock_Constraint.sdc"
 "Go_Board_Constraints.pcf"
 
-Project Summary:
+Test Benches:
+ALU : https://www.edaplayground.com/x/LKxp
+Moore FSM : https://www.edaplayground.com/x/edMV
+Decoder : https://www.edaplayground.com/x/sZZR
+Register : https://www.edaplayground.com/x/AYsR
